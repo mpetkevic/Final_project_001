@@ -1,9 +1,3 @@
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -40,7 +34,7 @@
                   </ul>
                 </nav>
               </div>
-              <div class="header__links"><a class="order-link btn" href="6">Заказать</a><a class="hamburger-menu-link" href="">
+              <div class="header__links"><a class="order-link btn" href="#order">Заказать</a><a class="hamburger-menu-link" href="">
                   <div class="hamburger-menu-link__bars"></div></a></div>
             </header>
             <div class="hero__container">
@@ -128,7 +122,7 @@
                       <div class="burgers-slider__price">
                         <div class="burgers-slider__price-amount">500</div>
                         <div class="burgers-slider__price-measure">рублей</div>
-                      </div><a class="burgers-slider__buy btn" href="6">Заказать</a>
+                      </div><a class="burgers-slider__buy btn" href="#order">Заказать</a>
                     </div>
                   </div>
                 </li>
@@ -149,7 +143,7 @@
                       <div class="burgers-slider__price">
                         <div class="burgers-slider__price-amount">500</div>
                         <div class="burgers-slider__price-measure">рублей</div>
-                      </div><a class="burgers-slider__buy btn" href="6">Заказать</a>
+                      </div><a class="burgers-slider__buy btn" href="#order">Заказать</a>
                     </div>
                   </div>
                 </li>
@@ -170,7 +164,7 @@
                       <div class="burgers-slider__price">
                         <div class="burgers-slider__price-amount">500</div>
                         <div class="burgers-slider__price-measure">рублей</div>
-                      </div><a class="burgers-slider__buy btn" href="6">Заказать</a>
+                      </div><a class="burgers-slider__buy btn" href="#order">Заказать</a>
                     </div>
                   </div>
                 </li>
@@ -191,7 +185,7 @@
                       <div class="burgers-slider__price">
                         <div class="burgers-slider__price-amount">500</div>
                         <div class="burgers-slider__price-measure">рублей</div>
-                      </div><a class="burgers-slider__buy btn" href="6">Заказать</a>
+                      </div><a class="burgers-slider__buy btn" href="#order">Заказать</a>
                     </div>
                   </div>
                 </li>
@@ -366,11 +360,11 @@
             </li>
           </ul>
         </section>
-        <section class="section order">
+        <section class="section order" id="order">
           <div class="container">
             <div class="section__title">Закажите доставку</div>
             <div class="order__form">
-              <form action="func.php" method="post" class="order__form-tag" id="order-form">
+              <form action="../app/app.php" method="post" class="order__form-tag" id="order-form">
                 <div class="order__form-col">
                   <div class="order__form-row order__form-row_double">
                     <label class="order__form-block">
