@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Mar 09, 2018 at 12:50 PM
+-- Generation Time: Mar 11, 2018 at 02:31 PM
 -- Server version: 5.6.38
 -- PHP Version: 7.1.12
 
@@ -38,12 +38,20 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`id`, `user_id`, `user_address`, `user_details`) VALUES
-(1, 8, 'Hollywood 23 1B 111 5', 'Credit Card Payment'),
-(2, 8, 'Manhattan 35  115 11', 'No comments'),
-(3, 8, 'Manhattan 35  115 11', 'No comments'),
-(4, 8, 'Manhattan 35  115 11', 'No comments'),
-(5, 8, 'Manhattan 35  115 11', 'No comments'),
-(6, 8, 'Manhattan 35  115 11', 'No comments');
+(4, 25, 'Manhattan 112 B 111 11', 'Bitcoin payment'),
+(5, 25, 'Broadway 23 D 12 3', 'Cash'),
+(6, 25, 'Broadway 23 D 12 3', 'Cash'),
+(7, 25, 'Broadway 23 D 12 3', 'Cash'),
+(8, 25, 'Google 12 D 12 1', 'Credit Card'),
+(9, 25, 'Google 12 D 12 1', 'Credit Card'),
+(10, 26, 'Kauno 2 1 12 3', 'Cash'),
+(11, 26, 'Kauno 2 1 12 3', 'Cash'),
+(12, 26, 'Kauno 2 1 12 3', 'Cash'),
+(13, 26, 'Kauno 2 1 12 3', 'Cash'),
+(14, 26, 'Kauno 2 1 12 3', 'Cash'),
+(15, 26, 'Kauno 2 1 12 3', 'Cash'),
+(16, 26, 'Kauno 2 1 12 3', 'Cash'),
+(17, 26, 'Kauno 2 1 12 3', 'Cash');
 
 -- --------------------------------------------------------
 
@@ -63,8 +71,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `phone`) VALUES
-(2, 'New', '1@1.com', '+7 (435) 532 45 32'),
-(8, 'thomas', 'thomas@1.com', '+7 (345) 252 34 53');
+(25, 'Thomas', 'thomas@1.com', '+7 (111) 111 11 11'),
+(26, 'Andrew', 'andrew@1.com', '+7 (222) 222 22 22');
 
 --
 -- Indexes for dumped tables
@@ -91,13 +99,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
